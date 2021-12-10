@@ -48,3 +48,9 @@ body {
 .display .previousOperand {
     font-size: 2rem;
 }
+
+.test {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
