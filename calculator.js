@@ -29,6 +29,7 @@ const calculator = new Calculator(previousOperand, currentOperand);
 
 numberButton.forEach(button => {
     button.addEventListener('click', () => {
+        console.log(button);
         calculator.appendNumber(button.innerText);
         calculator.updateDisplay();
     })
