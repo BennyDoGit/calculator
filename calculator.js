@@ -16,7 +16,7 @@ class Calculator {
             this.compute();
         }
         this.operation = operation;
-        this.previousOperandInDisplay = this.currentOperandInDisplay;
+        this.previousOperandInDisplay = this.currentOperandInDisplay + operation;
         this.currentOperandInDisplay = '';
     }
 
