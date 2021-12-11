@@ -35,10 +35,10 @@ numberButton.forEach(button => {
     })
 })
 
-const previousOperand = document.querySelectorAll('[data-previousOperand]');
-const currentOperand = document.querySelectorAll('[data-currentOperand]');
-const equalButton = document.querySelectorAll('[data-equal]');
-const delteButton = document.querySelectorAll('[data-delete]');
-const clearButton = document.querySelectorAll('[data-clear]');
+const previousOperand = document.querySelector('[data-previousOperand]');
+const currentOperand = document.querySelector('[data-currentOperand]');
+const equalButton = document.querySelector('[data-equal]');
+const delteButton = document.querySelector('[data-delete]');
+const clearButton = document.querySelector('[data-clear]');
 const operationButton = document.querySelectorAll('[data-operation]');
 const numberButton = document.querySelectorAll('[data-number]');
