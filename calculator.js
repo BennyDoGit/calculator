@@ -74,7 +74,7 @@ numberButton.forEach(button => {
 })
 
 equalButton.addEventListener('click', button => {
-    compute();
+    calculator.compute();
 })
 
 operationButton.forEach(button => {
