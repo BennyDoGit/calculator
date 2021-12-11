@@ -21,9 +21,10 @@ body {
 .calculator > button {
     font-size: 1.5rem;
     border: 1px solid black;
+    background-color: white;
 }
 
-.calculator-grid > button:hover {
+.calculator > button:hover {
     background-color: lightgray;
 }
 
@@ -39,6 +40,7 @@ body {
     flex-direction: column;
     word-wrap: break-word;
     word-wrap: break-all;
+    border: 2px 2px 0px 2px;
 }
 
 .display .currentOperand {
