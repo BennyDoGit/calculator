@@ -40,11 +40,14 @@ body {
     flex-direction: column;
     word-wrap: break-word;
     word-wrap: break-all;
-    border: 2px 2px 0px 2px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .display .currentOperand {
     color: lightgray;
+    font-size: 1rem;
 }
 
 .display .previousOperand {
