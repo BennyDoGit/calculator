@@ -27,7 +27,7 @@ body {
     background-color: lightgray;
 }
 
-.span-two {
+.spanTwo {
     grid-column: span 2;
 }
 
@@ -47,10 +47,4 @@ body {
 
 .display .previousOperand {
     font-size: 2rem;
-}
-
-.test {
-    width: 100px;
-    height: 50px;
-    border: 1px solid black;
 }
