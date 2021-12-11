@@ -25,6 +25,14 @@ class Calculator {
     }
 }
 
+const previousOperand = document.querySelector('[data-previousOperand]');
+const currentOperand = document.querySelector('[data-currentOperand]');
+const equalButton = document.querySelector('[data-equal]');
+const delteButton = document.querySelector('[data-delete]');
+const clearButton = document.querySelector('[data-clear]');
+const operationButton = document.querySelectorAll('[data-operation]');
+const numberButton = document.querySelectorAll('[data-number]');
+
 const calculator = new Calculator(previousOperand, currentOperand);
 
 numberButton.forEach(button => {
@@ -35,10 +43,4 @@ numberButton.forEach(button => {
     })
 })
 
-const previousOperand = document.querySelector('[data-previousOperand]');
-const currentOperand = document.querySelector('[data-currentOperand]');
-const equalButton = document.querySelector('[data-equal]');
-const delteButton = document.querySelector('[data-delete]');
-const clearButton = document.querySelector('[data-clear]');
-const operationButton = document.querySelectorAll('[data-operation]');
-const numberButton = document.querySelectorAll('[data-number]');
+
