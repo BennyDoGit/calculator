@@ -46,10 +46,10 @@ body {
 }
 
 .display .currentOperand {
-    color: lightgray;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .display .previousOperand {
-    font-size: 2rem;
+    font-size: 1rem;
+    color: lightgray;
 }
