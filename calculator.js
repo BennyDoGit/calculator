@@ -15,7 +15,7 @@ class Calculator {
 
     appendNumber(number) {
         if(number === ',' && this.currentOperandInDisplay.includes(',')) return;
-        this.currentOperand = this.currentOperand.toString() + number.toString();
+        this.currentOperandInDisplay = this.currentOperandInDisplay.toString() + number.toString();
     }
 
     clear() {
